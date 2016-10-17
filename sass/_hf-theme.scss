@@ -2,6 +2,7 @@ body{
   @extend .m-b-3;
   color: $gray-lightest;
   background: $gray-dark;
+  font-weight: $pf-font-weight-normal;
  //  background-image:
  //    url("../img/grid-left.svg"),
  //    linear-gradient($brand-primary, $color-pf-blue-600),
@@ -68,6 +69,7 @@ body{
   img{
     width: 50%;
     display: block;
+//    clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 50%);
     @include media-breakpoint-up(lg) {
       width: 25%;
     }
